@@ -1,18 +1,40 @@
 .header {
-  padding-top: 40px;
-  padding-bottom: 2px;
-  margin: 0 auto;
-  max-width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  top: 0;
+  left: 0;
 
-  .links {
+  .container {
+    padding: 32px 8px 2px 8px;
+    margin: 0 auto;
+    max-width: 1200px;
     display: flex;
-    gap: 74px;
+    justify-content: space-between;
+    align-items: center;
 
-    a {
-      text-decoration: none;
+    .links {
+      display: flex;
+      align-items: center;
+      gap: 74px;
+
+      a {
+        text-decoration: none;
+      }
+      .contact {
+        border: 1px solid #3c3c3c;
+        padding: 14px 32px;
+        background-color: #2c3878;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 150%;
+        color: #fff;
+        transition: background 0.2s ease-in-out;
+
+        &:hover {
+          background-color: black;
+        }
+      }
     }
   }
 }

@@ -1,0 +1,29 @@
+.section {
+  margin: 0 auto;
+  margin-top: 194px;
+  padding: 0 8px;
+  max-width: 1200px;
+
+  .top {
+    position: relative;
+
+    h1 {
+      margin: 0;
+    }
+    .title {
+      font-weight: 700;
+      font-size: 58px;
+      line-height: 140%;
+      color: #333;
+    }
+    .divider {
+      position: absolute;
+      top: 35px;
+      right: 0;
+      background-color: #000;
+      width: 100%;
+      max-width: 56%;
+      height: 0.125rem;
+    }
+  }
+}
