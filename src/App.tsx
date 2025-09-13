@@ -1,3 +1,11 @@
+import { Route, Routes } from "react-router";
+import { Layout } from "./pages/Layout";
+
 export const App = () => {
-  return <p>idk</p>;
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+      </Route>
+    </Routes>
+  );
 };
