@@ -1,6 +1,6 @@
 import classNames from "classnames";
 import ceo from "../../assets/ceo.png";
-import style from "./style.module.scss";
+// import style from "./style.module.scss";
 
 interface CardProps {
   className?: string;
